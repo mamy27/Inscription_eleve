@@ -1,0 +1,100 @@
+/* Appliquer un fond dégradé comme sur l'image */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("32342ca28ef61e9acf8908967f6dd534.jpeg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Conteneur du formulaire */
+.signup-container {
+    background: rgba(80, 0, 160, 0.8); /* Violet avec transparence */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+    color: white;
+}
+
+/* Style du titre */
+h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+/* Champs de formulaire */
+input, select, button {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Champ texte et menu déroulant */
+input, select {
+    background: white;
+    color: black;
+    outline: none;
+}
+
+/* Boutons */
+button {
+    background: #ffa500; /* Orange */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff8c00; /* Orange foncé */
+}
+
+/* Boutons secondaires */
+.secondary-button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.secondary-button:hover {
+    background: white;
+    color: black;
+}
+table {
+    background: rgba(80, 0, 160, 0.8); /* Violet avec transparence */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+    color: white;
+}
+thead{
+    background: #ffa500;
+    color: white;
+    font-weight: bold;
+}
+tbody{
+        background: #ffa500;
+        color: white;
+        font-weight: bold;
+}
+tr, th, td {
+    border-radius: 5px;
+}
+.retour{
+    display: flex;
+    justify-content: right;
+}
